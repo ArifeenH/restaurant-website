@@ -245,3 +245,75 @@ header{
 .right_box img{
     width: 100%;
 }
+/* Footer */
+.footer_container{
+    display: grid;
+    gap: 4rem 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer_logo img{
+    max-width: 40px;
+}
+.footer_logo span{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.footer_col .footer_text{
+    max-width: 350px;
+    color: #999;
+    margin: 2rem 0;
+}
+.footer_socials{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+.footer_socials a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 3%;
+}
+.footer_socials a:hover{
+    background: orangered;;
+}
+.footer_col h4{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600; 
+}
+.footer_links{
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+}
+.footer_links a{
+    text-decoration: none;
+    color: #999;
+}
+.footer_links a:hover{
+    color: orangered;
+}
+.footer_bar{
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+/* Scroll-Up */
+.top{
+    background: orangered;
+    font-size: 40px;
+    padding: 0.5rem;
+    position: fixed;
+    border-radius: 10%;
+    right: 5%;
+    cursor: pointer;
+    bottom: -50%;
+}
+.top:over{
+    transform: translateY(-.6rem);
+}
+.top.show{
+    bottom: 8%;
+}
