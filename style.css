@@ -222,3 +222,26 @@ header{
 .box1_text button:hover{
     color: #000;
 }
+/* Contact */
+.contact{
+    margin-top: 6%;
+    width: 100%;
+    background: #312c2a;
+}
+.contact_box{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+.left_box .heading_1{
+    color: orangered;
+}
+.right_box{
+    text-align: right;
+}
+.right_box img{
+    width: 100%;
+}
